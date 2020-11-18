@@ -75,7 +75,7 @@ nav ul li a{
     display: inline-block;
     float: right;
     padding: 0px 10px 0 0;
-    margin: 16px 40%;
+        margin: 16px 40%;
 }
 nav ul li :hover{
     color: #05ff19;
@@ -88,3 +88,8 @@ nav ul li :hover{
 }
 
 
+@media(max-width: 636px){
+.container {
+    width: 100vh;
+    }
+}

@@ -50,3 +50,18 @@ h2{
     background-color: tomato;
     grid-area: item4;
 }
+
+@media(max-width: 636px){
+    .grid-anuncio{
+        width: 33vh;
+        height: 20vh;
+        grid-area: anuncio;
+        background-color: green;
+       
+    }
+    .galeria{
+        grid-template-columns: 10vh 10vh 10vh;
+        grid-template-rows: 10vh 10vh;
+
+    }
+}

@@ -64,17 +64,18 @@ nav{
     margin: -1px 100px;
     border-radius: 10px;
     float: right;
-    align-items: center;
+    align-content: center;
     justify-content: center;
 
 }
+
 nav ul li a{
     color: var(--color-text);
     font-family: 'Comfortaa', cursive;
     display: inline-block;
     float: right;
     padding: 0px 10px 0 0;
-    margin: 17px 26px;
+    margin: 16px 40%;
 }
 nav ul li :hover{
     color: #05ff19;
@@ -84,4 +85,11 @@ nav ul li :hover{
 
 .text{
     text-align: center;
+}
+
+
+@media(max-width: 636px){
+.container {
+    width: 100vh;
+    }
 }

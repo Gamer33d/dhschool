@@ -1,5 +1,5 @@
 <?php
-/*include('conexao.php');*/
+include('conexao.php');
 
 $mensagem = false;
 
@@ -13,11 +13,11 @@ if(isset($_POST['enviar_formulario'])):
     $novonome = uniqid().".$extensao";
 
     if(move_uploaded_file($temporario, $pasta.$novonome)):
-      /*$sql_code = "INSERT INTO images (img_id, img_url) VALUES (null, '$novonome')";
+      $sql_code = "INSERT INTO images (img_id, img_url) VALUES (null, '$novonome')";
         if($conexao->query($sql_code))
             $mensagem = "Arquivo enviado";
         else
-            $mensagem = "Falha ao enviar a foto para o banco de dados";*/
+            $mensagem = "Falha ao enviar a foto para o banco de dados";
     else:
       $mensagem = "Erro, nao foi possivel fazer upload para a pasta";
     endif;

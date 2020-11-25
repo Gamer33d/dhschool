@@ -1,3 +1,20 @@
+html,body{
+    height: 100%;
+}
+
 footer{
     border-top: 2px dotted #ccc;
+    text-align: center;
+    height: 15vh;
+    
+}
+
+footer h2{
+    margin-top: 3%;
+}
+
+
+.footer {
+    margin-top: 5%;
+    background-color: rgb(240, 240, 240);
 }
